@@ -53,9 +53,9 @@ export default Home = ({navigation}) => {
             </Text>
             <Text multiline="True"> Copy more text here...</Text>
             <Text>Good luck,</Text>
-            <Pressable>
-                onPress={() => NavigationPreloadManager.navigate(
-                    'Gameboard', {player: playerName})}
+            <Pressable
+                onPress={() => navigation.navigate(
+                    'Gameboard', {player: playerName})}>
                 <Text>PLAY</Text>
             </Pressable>
             </>

@@ -19,7 +19,7 @@ export default function App() {
             if (route.name === 'Home') {
               iconName = focused
                 ? 'information'
-                : 'information-outlined';
+                : 'information-outline';
             } else if (route.name === 'Gameboard') {
               iconName = focused 
               ? 'dice-multiple' 
