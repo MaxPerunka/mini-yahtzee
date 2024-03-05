@@ -4,7 +4,6 @@ import Scoreboard from "./components/Scoreboard";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
-
 const Tab = createBottomTabNavigator();
 
 export default function App() {

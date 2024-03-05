@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import { Text, View } from 'react-native'
 import styles from '../style/style'
 
-export default Scoreboard = () => {
+export default function Scoreboard({ navigation }) {
     return (
         <View>
             <Text>
